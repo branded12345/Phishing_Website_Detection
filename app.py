@@ -87,7 +87,7 @@ def predict_datapoint():
         logging.info("Program End")
         logging.info(prediction)
         
-        if(prediction == 0):
+        if(prediction == 1):
             return render_template('result.html', result='The website you are visiting is SAFE')
         else:
             return render_template('result.html', result='The website you are visiting is NOT SAFE')
