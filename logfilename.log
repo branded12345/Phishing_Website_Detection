@@ -1,0 +1,370 @@
+INFO:root:Program Start
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Program came to index page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:08:57] "GET / HTTP/1.1" 200 -
+INFO:root:Program came to predict page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:09:07] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:09:07] "[33mGET /college_student.jpg HTTP/1.1[0m" 404 -
+INFO:root:Program came to predict page
+INFO:root:All values are stored
+INFO:root:Values going to predict 1
+INFO:root:Values going to predict 2
+INFO:root:Program End
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:09:54] "POST /predictdata HTTP/1.1" 200 -
+INFO:root:Program Start
+INFO:root:RandomForestClassifier()
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Program came to predict page
+INFO:root:All values are stored
+INFO:root:Values going to predict 1
+INFO:root:Values going to predict 2
+INFO:root:Program End
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:11:45] "POST /predictdata HTTP/1.1" 200 -
+INFO:root:Program came to predict page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:12:00] "GET /predictdata HTTP/1.1" 200 -
+INFO:root:Program came to index page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:12:01] "GET / HTTP/1.1" 200 -
+INFO:root:Program Start
+INFO:root:RandomForestClassifier()
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Program came to index page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:15:19] "GET / HTTP/1.1" 200 -
+INFO:root:Program came to predict page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:15:21] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:15:21] "[33mGET /college_student.jpg HTTP/1.1[0m" 404 -
+INFO:root:Program came to predict page
+INFO:root:All values are stored
+INFO:root:Values going to predict 1
+INFO:root:Values going to predict 2
+INFO:root:Program End
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:16:01] "POST /predictdata HTTP/1.1" 200 -
+INFO:root:Program Start
+INFO:root:try block Start
+INFO:root:RandomForestClassifier()
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Program came to predict page
+INFO:root:All values are stored
+INFO:root:Values going to predict 1
+INFO:root:Values going to predict 2
+INFO:root:Program End
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:17:05] "POST /predictdata HTTP/1.1" 200 -
+INFO:root:Program came to predict page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:17:06] "GET /predictdata HTTP/1.1" 200 -
+INFO:root:Program came to index page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:17:08] "GET / HTTP/1.1" 200 -
+INFO:root:Program came to predict page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:17:17] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:17:19] "[33mGET /college_student.jpg HTTP/1.1[0m" 404 -
+INFO:root:Program came to predict page
+INFO:root:All values are stored
+INFO:root:Values going to predict 1
+INFO:root:Values going to predict 2
+INFO:root:Program End
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:18:07] "POST /predictdata HTTP/1.1" 200 -
+INFO:root:Program came to predict page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:18:10] "GET /predictdata HTTP/1.1" 200 -
+INFO:root:Program came to index page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:20:09] "GET / HTTP/1.1" 200 -
+INFO:root:Program came to index page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:20:26] "GET / HTTP/1.1" 200 -
+INFO:root:Program came to predict page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:20:28] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:20:28] "[33mGET /college_student.jpg HTTP/1.1[0m" 404 -
+INFO:root:Program Start
+INFO:root:try block Start
+INFO:root:RandomForestClassifier()
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Program Start
+INFO:root:try block Start
+INFO:root:RandomForestClassifier()
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Program came to index page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:21:23] "GET / HTTP/1.1" 200 -
+INFO:root:Program came to predict page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:21:24] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:21:24] "[33mGET /college_student.jpg HTTP/1.1[0m" 404 -
+INFO:root:Program came to predict page
+INFO:root:All values are stored
+INFO:root:Values going to predict 1
+INFO:root:Values going to predict 2
+INFO:root:Program End
+INFO:root:[1]
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:21:57] "POST /predictdata HTTP/1.1" 200 -
+INFO:root:Program came to predict page
+INFO:root:All values are stored
+INFO:root:Values going to predict 1
+INFO:root:Values going to predict 2
+INFO:root:Program End
+INFO:root:[1]
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:23:16] "POST /predictdata HTTP/1.1" 200 -
+INFO:root:Program came to predict page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:23:18] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:23:18] "[33mGET /college_student.jpg HTTP/1.1[0m" 404 -
+INFO:root:Program Start
+INFO:root:try block Start
+INFO:root:RandomForestClassifier()
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Program came to predict page
+INFO:root:All values are stored
+INFO:root:Values going to predict 1
+INFO:root:Values going to predict 2
+INFO:root:Program End
+INFO:root:[1]
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:24:00] "POST /predictdata HTTP/1.1" 200 -
+INFO:root:Program Start
+INFO:root:try block Start
+INFO:root:RandomForestClassifier()
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Program came to predict page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:25:38] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:25:39] "[33mGET /college_student.jpg HTTP/1.1[0m" 404 -
+INFO:root:Program came to predict page
+INFO:root:All values are stored
+INFO:root:Values going to predict 1
+INFO:root:Values going to predict 2
+INFO:root:Program End
+INFO:root:1
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:26:12] "POST /predictdata HTTP/1.1" 200 -
+INFO:root:Program Start
+INFO:root:try block Start
+INFO:root:RandomForestClassifier()
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Program came to predict page
+ERROR:app:Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 109, in predict_datapoint
+    return render_template('home.html')
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/config/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 137, in load
+    code = environment.compile(source, name, filename)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/config/workspace/templates/home.html", line 1, in template
+    {% comment %} <!DOCTYPE html>
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:30:25] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+INFO:root:Program came to predict page
+ERROR:app:Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 109, in predict_datapoint
+    return render_template('home.html')
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/config/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 137, in load
+    code = environment.compile(source, name, filename)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/config/workspace/templates/home.html", line 1, in template
+    {% comment %} <!DOCTYPE html>
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:30:27] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+INFO:root:Program came to index page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:30:43] "GET / HTTP/1.1" 200 -
+INFO:root:Program came to index page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:30:44] "GET / HTTP/1.1" 200 -
+INFO:root:Program came to predict page
+ERROR:app:Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 109, in predict_datapoint
+    return render_template('home.html')
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/config/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 137, in load
+    code = environment.compile(source, name, filename)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/config/workspace/templates/home.html", line 1, in template
+    {% comment %} <!DOCTYPE html>
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:30:45] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+INFO:root:Program came to predict page
+ERROR:app:Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 109, in predict_datapoint
+    return render_template('home.html')
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/config/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 137, in load
+    code = environment.compile(source, name, filename)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/config/workspace/templates/home.html", line 1, in template
+    {% comment %} <!DOCTYPE html>
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:30:48] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+INFO:root:Program came to predict page
+ERROR:app:Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 109, in predict_datapoint
+    return render_template('home.html')
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/config/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 137, in load
+    code = environment.compile(source, name, filename)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/config/workspace/templates/home.html", line 1, in template
+    {% comment %} <!DOCTYPE html>
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:31:30] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+INFO:root:Program came to predict page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:32:14] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:32:14] "[33mGET /college_student.jpg HTTP/1.1[0m" 404 -
+INFO:root:Program Start
+INFO:root:RandomForestClassifier()
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Program came to predict page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:41:35] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:41:35] "[33mGET /college_student.jpg HTTP/1.1[0m" 404 -
+INFO:root:Program came to predict page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:42:51] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:42:51] "[33mGET /college_student.jpg HTTP/1.1[0m" 404 -
+INFO:root:Program Start
+INFO:root:RandomForestClassifier()
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Program came to predict page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:43:01] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:43:01] "[33mGET /college_student.jpg HTTP/1.1[0m" 404 -
+INFO:root:Program Start
+INFO:root:RandomForestClassifier()
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.7:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Program came to predict page
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:46:25] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:46:25] "[33mGET /college_student.jpg HTTP/1.1[0m" 404 -
+INFO:root:Program came to predict page
+INFO:root:We are in post method
+INFO:root:All values are stored
+INFO:root:Values going to predict 1
+INFO:root:Values going to predict 2
+INFO:root:Program End
+INFO:root:1
+INFO:werkzeug:172.18.0.2 - - [29/Feb/2024 23:47:08] "POST /predictdata HTTP/1.1" 200 -

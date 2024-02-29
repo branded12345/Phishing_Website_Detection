@@ -2,21 +2,27 @@ from flask import Flask, request, render_template, redirect, url_for
 import pickle
 import numpy as np
 import pandas as pd
+import logging
+logging.basicConfig(filename="logfilename.log", level=logging.INFO)
 
 app = Flask(__name__)
+logging.info("Program Start")
 
 model = pickle.load(open("models/modelForPrediction.pkl", 'rb'))
+logging.info(model)
 
 
 
 @app.route("/")
 def index():
+    logging.info("Program came to index page")
     return render_template("index.html")
 
 @app.route('/predictdata', methods=['GET', 'POST'])
 def predict_datapoint():
+    logging.info("Program came to predict page")
     if request.method == 'POST':
-        
+        logging.info("We are in post method")
         having_IP_Address = int(request.form.get('having_IP_Address'))
         URL_Length = int(request.form.get('URL_Length'))
         Shortining_Service = int(request.form.get('Shortining_Service'))
@@ -48,6 +54,7 @@ def predict_datapoint():
         Links_pointing_to_page = int(request.form.get('Links_pointing_to_page'))
         Statistical_report = int(request.form.get('Statistical_report'))
         
+        logging.info("All values are stored")
         
         data=[[having_IP_Address, URL_Length, Shortining_Service,
        having_At_Symbol, double_slash_redirecting, Prefix_Suffix,
@@ -67,14 +74,27 @@ def predict_datapoint():
        'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank',
        'Google_Index', 'Links_pointing_to_page', 'Statistical_report']
 
+        logging.info("Values going to predict 1")
+
         # Create DataFrame
         input_df = pd.DataFrame(data, columns=columns)
 
-        prediction=model.predict(input_df)
+        logging.info("Values going to predict 2")
 
-        return render_template('result.html', result=prediction)
+        prediction=model.predict(input_df)
+        prediction= int(prediction)
+
+        logging.info("Program End")
+        logging.info(prediction)
+        
+        if(prediction == 0):
+            return render_template('result.html', result='The website you are visiting is SAFE')
+        else:
+            return render_template('result.html', result='The website you are visiting is NOT SAFE')
+
 
     else:
+
         return render_template('home.html')
 
 if __name__ == "__main__":
